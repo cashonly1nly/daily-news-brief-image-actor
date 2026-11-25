@@ -1,0 +1,26 @@
+Daily News Brief Image Actor — local test results
+date: 2026-11-25T14:53:00Z
+
+0cb2496c6fa21c5bcb95aabbb174c6239b61c437c4195eb0a51637f940f36bc5  out/test-3zh/news-2026-11-25.png
+76d82dc1da153c452f0643a1733e41db0621e8e6029891af8926d903610d041c  out/test-5zh/news-2026-11-25.png
+12360cc61251f804b814f0e78e29f751fa10f480a1c75d17e94cd71b74ff3523  out/test-8en/news-2026-11-25.png
+f3a8f7440f3acfaf3cb4b76b19a249112828fabc82bee65ceba59498fb899d9c  out/test-3zh/caption.txt
+f3a8f7440f3acfaf3cb4b76b19a249112828fabc82bee65ceba59498fb899d9c  out/test-5zh/caption.txt
+a38cea09f7e7b4e48c98d0d1f2e78847ad3669f1178c3eed058a22971814e98e  out/test-8en/caption.txt
+b1c59417df0386e8c4e33924f079902386f116fe060fba05fbc51a7433a77d0d  out/test-3zh/dataset.json
+a80e82431596217b8643d0753e93aa6a13f44f74201810fb95b42936b8bae07c  out/test-5zh/dataset.json
+5094d960f14a058a2ef6f669fe1472cd97d3b60228066d18b49c25d00869ab2d  out/test-8en/dataset.json
+
+-rw-rw---- 1 root nogroup  67690 Nov 25 14:52 out/test-3zh/news-2026-11-25.png
+-rw-rw---- 1 root nogroup 102598 Nov 25 14:52 out/test-5zh/news-2026-11-25.png
+-rw-rw---- 1 root nogroup 101701 Nov 25 14:52 out/test-8en/news-2026-11-25.png
+
+out/test-3zh/caption.txt: 2026-11-25 每日新闻：央行开展5000亿元逆回购和8000亿元MLF操作
+out/test-5zh/caption.txt: 2026-11-25 每日新闻：央行开展5000亿元逆回购和8000亿元MLF操作
+out/test-8en/caption.txt: 2026-11-25 Daily News：Japan aims to become an AI nation
+
+SDK-mode test (Apify Python SDK 4.3.0, local venv, APIFY_LOCAL_STORAGE_DIR set):
+  input: test/input-5zh.json via apify_storage/key_value_stores/default/INPUT.json
+  exit code 0; log: Rendering 2026-11-25: 5 headlines (zh); Stored news-2026-11-25.png (102598 bytes); Pushed dataset item
+  KVS: news-2026-11-25.png (102598 bytes); dataset: 1 item, headlineCount 5, caption correct
+  PNG sha256 matches local-mode 5zh render (see above)
