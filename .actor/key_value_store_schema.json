@@ -1,0 +1,1 @@
+{"actorKeyValueStoreSchemaVersion":1,"collections":{"newsImages":{"contentTypes":["image/png"],"description":"Generated news brief PNG images, one per date.","keyPrefix":"news-","title":"News images"}},"description":"Key-value store containing the generated 1024x1024 news image PNG.","title":"News brief images"}
