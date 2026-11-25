@@ -100,5 +100,4 @@ Local mode (no Apify SDK installed) writes `news-YYYY-MM-DD.png`,
 - v1.0.0 — built from the same renderer already submitted to Agensi as a
   $29 Skill (pending review). Tested locally on 3 demo inputs (3zh, 5zh,
   8en): all PNGs 1024×1024, captions correct, byte-identical re-renders.
-- Not yet published to the Apify Store. Publishing needs: GitHub connected,
-  profile set to Public, billing + KYC completed by the account owner.
+- Published to the Apify Store 2026-11-26 (free, not monetized yet): https://apify.com/cashonly/daily-news-brief-image-actor — Build 0.0.5, test run verified (2026-11-25, zh, 5 headlines, 1024x1024 PNG, 1 dataset item). Monetization / pricing and KYC are still to be set up by the account owner when ready.
